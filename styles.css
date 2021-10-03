@@ -1,0 +1,95 @@
+[class*="col-"] {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }  
+
+
+body {
+    font-family: Bungee;
+}
+
+.topnav a {
+    text-decoration: none;
+    float: right;
+    text-align: right;
+    color: #7944e6;
+    padding: 14px 16px;
+}
+
+#logo {
+    height: 300px;
+    width: 300px;
+}
+
+.topnav a:hover {
+    color: #10fdff;
+
+}
+
+#about {
+    margin: auto;
+    height: 1000px;
+    width: 95%;
+    border: none;
+    background-color: #ff00ff;
+    font-size: 2.0em;
+}
+
+.menu_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu_nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_nav a:hover{
+    color: #10fdff;
+}
+
+#coffee_menu {
+    font-size: 4em;
+    text-align: center;
+    border: solid;
+    border-width: 10px;
+    border-color: #7944e6;
+}
+
+#cream_menu {
+    font-size: 4em;
+    text-align: center;
+    border: solid;
+    border-width: 10px;
+    border-color: #7944e6;
+}
+
+#cookies_menu {
+    font-size: 4em;
+    text-align: center;
+    border: solid;
+    border-width: 10px;
+    border-color: #7944e6;
+}
+
+.button {
+    background-color: white;
+    color: #7944e6;
+
+}
