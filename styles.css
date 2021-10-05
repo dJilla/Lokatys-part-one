@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px) {
-    .body {display: flexbox;}
+    body {display: flexbox;}
     .about {float: left;}
     .about {justify-content: space-evenly;}
     .about {display: flexbox;}
